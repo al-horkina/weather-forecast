@@ -1,0 +1,82 @@
+*{transition: all .1s ease-in;}
+body{
+    color: white;
+    font-family:“Lucida Sans Unicode”, “Lucida Grande”, sans-serif ;
+}
+div{
+    border: 10px solid #2b81ac;
+    background: #3399cc;
+}
+ul{
+    list-style: none;
+    font-size: 0;
+    border: 1px solid white;
+    width: 50%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+li{
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 0;
+    box-sizing: border-box;
+}
+p,h1{
+    text-align: center;
+}
+ul:hover li{
+    opacity: 0.5;
+}
+ul:hover li:hover{
+    opacity: 1;
+    /*transition: opacity 2s;*/
+}
+.temp{
+    opacity: 0.7;
+}
+.blue{
+    background: #3399cc;
+    width: 50%;
+}
+.aqua{
+    background: #33cccc;
+    width: 25%;
+}
+.violet{
+    background: #996699;
+    width: 25%;
+}
+.red{
+    background: #c24747;
+    width: 25%;
+}
+.orange{
+    background: #e2674a;
+    width: 25%;
+}
+.yellow{
+    background: #ffcc66;
+    width: 25%;
+}
+.green{
+    background: #99cc99;
+    width: 25%;
+}
+.grey{
+    background: #669999;
+    width: 25%;
+}
+.purple{
+    background: #cc6699;
+    width: 50%;
+}
+.more-green{
+    background: #339966;
+    width: 25%;
+}
+.more-violet{
+    background: #666699;
+    width: 100%;
+}
